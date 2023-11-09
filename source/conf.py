@@ -5,6 +5,11 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+import math
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '.'))
+import test_func
 
 project = 'sphinx_test'
 copyright = '2023, Yeison'
@@ -25,7 +30,7 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+html_static_path = ['static']
 html_show_sphinx = False
 # html_theme_options = {
 #      'show_powered_by' : 'False',

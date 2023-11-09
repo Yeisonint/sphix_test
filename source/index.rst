@@ -10,6 +10,7 @@ if you want to have the pulled in files at the same level.
 
    Documentation <documentation/doc1>
    "Documentation 2" <documentation/doc2>
+   "Documentation 3" <documentation/doc3>
 
 Indices and tables
 ==================
